@@ -11,4 +11,11 @@ class Admin extends CI_Controller {
 	public function dashboard(){
 		$this->load->view('admin/dashboard');
 	}
+	public function slider(){
+		$this->load->view('admin/slider');
+	}
+	public function blogs()
+	{
+		$this->load->view('admin/blogs');
+	}
 }

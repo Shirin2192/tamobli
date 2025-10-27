@@ -21,6 +21,18 @@
       </a>
     </li>
     <li class="nav-item">
+      <a class="nav-link" href="<?= base_url()?>admin/slider">
+        <span class="menu-title">Home Slider</span>
+        <i class="mdi mdi-image-album menu-icon"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="<?= base_url()?>admin/blogs">
+        <span class="menu-title">Blogs</span>
+        <i class="mdi mdi-post-outline menu-icon"></i>
+      </a>
+    </li>
+    <li class="nav-item">
       <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
         <span class="menu-title">Basic UI Elements</span>
         <i class="menu-arrow"></i>
