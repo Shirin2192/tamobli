@@ -18,4 +18,12 @@ class Admin extends CI_Controller {
 	{
 		$this->load->view('admin/blogs');
 	}
+	public function package_category()
+	{
+		$this->load->view('admin/package_category');
+	}
+	public function packages()
+	{
+		$this->load->view('admin/package');
+	}
 }

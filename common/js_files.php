@@ -24,7 +24,16 @@
     <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
     <!-- CKEditor 5 CDN -->
     <script src="https://cdn.ckeditor.com/ckeditor5/41.0.0/classic/ckeditor.js"></script>
-
+    <script>
+$(document).ready(function() {
+    // Initialize all select boxes with the 'select2' class
+    $('.select2').select2({
+        placeholder: "Select an option",
+        allowClear: true,
+        width: '100%' // ensures it fits the parent container
+    });
+});
+</script>
 <script>
   var frontend = "<?php base_url();?>";
 </script>

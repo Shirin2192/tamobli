@@ -24817,7 +24817,7 @@ dl li {
 
 /* Select2 */
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background: #b66dff;
+  background: #00a859;
 }
 .select2-container--default .select2-selection--single,
 .select2-container--default .select2-dropdown,
@@ -26285,5 +26285,9 @@ dl li {
   width: 100%;
   -webkit-flex-grow: 1;
   flex-grow: 1;
+}
+#add_itinerary{
+      border: #00a859;
+    background: #00a859;
 }
 /*# sourceMappingURL=maps/style.css.map */

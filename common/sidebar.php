@@ -33,6 +33,18 @@
       </a>
     </li>
     <li class="nav-item">
+      <a class="nav-link" href="<?= base_url()?>admin/package_category">
+        <span class="menu-title">Package Category</span>
+        <i class="mdi mdi-package-variant-closed menu-icon"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="<?= base_url()?>admin/packages">
+        <span class="menu-title">Packages </span>
+        <i class="mdi mdi-briefcase-outline menu-icon"></i>
+      </a>
+    </li>
+    <!-- <li class="nav-item">
       <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
         <span class="menu-title">Basic UI Elements</span>
         <i class="menu-arrow"></i>
@@ -113,6 +125,6 @@
         <span class="menu-title">Documentation</span>
         <i class="mdi mdi-file-document-box menu-icon"></i>
       </a>
-    </li>
+    </li> -->
   </ul>
 </nav>

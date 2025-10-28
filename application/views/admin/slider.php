@@ -14,7 +14,7 @@
             <div class="main-panel">
                <div class="content-wrapper">
                   <div class="page-header">
-                     <h3 class="page-title"> Slider Management </h3>
+                     <h3 class="page-title"> Slider</h3>
                      <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
@@ -75,8 +75,8 @@
                                     </div>
                                     <div class="col-md-3 mb-4">
                                        <label for="status" class="form-label fw-semibold">Status</label>
-                                       <select class="form-select mt-1 p-2" id="status" name="status">
-                                          <option value="active" selected>Active</option>
+                                       <select class="form-select mt-1 p-2 select2" id="status" name="status">
+                                          <option value="active">Active</option>
                                           <option value="inactive">Inactive</option>
                                        </select>
                                     </div>
@@ -208,8 +208,8 @@
                                     <input type="text" class="form-control" id="edit_button_link" name="button_link">
                                  </div>
                                  <div class="col-md-3 mb-3">
-                                    <label class="form-label fw-semibold">Status</label>
-                                    <select class="form-select" id="edit_status" name="status">
+                                    <label class="form-label fw-semibold select2">Status</label>
+                                    <select class="form-select" id="edit_status" name="edit_status">
                                        <option value="active">Active</option>
                                        <option value="inactive">Inactive</option>
                                     </select>

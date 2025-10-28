@@ -72,8 +72,8 @@
 
                         <div class="col-md-3 mb-4">
                           <label for="status" class="form-label fw-semibold">Status</label>
-                          <select class="form-select mt-1 p-2" id="status" name="status">
-                            <option value="active" selected>Active</option>
+                          <select class="form-select mt-1 p-2 select2" id="status" name="status">
+                            <option value="active">Active</option>
                             <option value="inactive">Inactive</option>
                           </select>
                         </div>
@@ -91,19 +91,16 @@
                         </div>
                       </div>
                     </form>
-
                   </div>
                 </div>
               </div>
             </div>
-
             <!-- BLOG LIST TABLE -->
            <div class="row mt-5">
               <div class="col-12">
                 <div class="card shadow-sm border-0 rounded-3">
                   <div class="card-body">
                     <h4 class="card-title mb-4">Blog List</h4>
-
                     <div class="table-responsive">
                       <table id="blogTable" class="table table-bordered table-striped align-middle">
                         <thead class="table-light">
@@ -122,12 +119,10 @@
                         </tbody>
                       </table>
                     </div>
-
                   </div>
                 </div>
               </div>
             </div> 
-
           </div>
           <!-- View Blog Modal -->
           <div class="modal fade" id="viewBlogModal" tabindex="-1" aria-labelledby="viewBlogModalLabel" aria-hidden="true">
@@ -165,7 +160,6 @@
               <div class="modal-body">
                 <form id="editBlogForm" enctype="multipart/form-data">
                   <input type="hidden" id="edit_id" name="id">
-
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <label class="form-label fw-semibold">Blog Title</label>
@@ -176,17 +170,14 @@
                       <input type="date" class="form-control" id="edit_date" name="date">
                     </div>
                   </div>
-
                   <div class="mb-3">
                     <label class="form-label fw-semibold">Short Description</label>
                     <textarea class="form-control" id="edit_short_description" name="short_description" rows="3"></textarea>
                   </div>
-
                   <div class="mb-3">
                     <label class="form-label fw-semibold">Blog Content</label>
                     <textarea class="form-control" id="edit_content" name="content" rows="6"></textarea>
                   </div>
-
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <label class="form-label fw-semibold">Feature Image</label>
@@ -195,7 +186,7 @@
                     </div>
                     <div class="col-md-3 mb-3">
                       <label class="form-label fw-semibold">Status</label>
-                      <select class="form-select" id="edit_status" name="status">
+                      <select class="form-select select2" id="edit_status" name="status">
                         <option value="active">Active</option>
                         <option value="inactive">Inactive</option>
                       </select>
@@ -205,7 +196,6 @@
                       <input type="number" class="form-control" id="edit_sort_order" name="sort_order">
                     </div>
                   </div>
-
                   <div class="text-end">
                     <button type="submit" class="btn btn-gradient-warning px-4">Update Blog</button>
                   </div>
